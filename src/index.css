@@ -1,0 +1,63 @@
+/* reset  */
+:root {
+    --background-cards: #062226;
+    --background-body: #06292e
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-body);
+    color: white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+button {
+    border: none;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(19, 177, 198, 255);
+    font-weight: 700;
+
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(13, 127, 142);
+    color: white;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+input {
+    outline: none;
+
+}

@@ -1,0 +1,26 @@
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.filter__list {
+    color: black;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.list__names:hover {
+    background-color: #062226;
+    cursor: pointer;
+    color: white;
+
+}
